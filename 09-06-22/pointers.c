@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include <stdio.h>
-/**int main()
+int main()
 {
    int *pc, c;
 
@@ -22,7 +22,7 @@
    printf("Address of c: %p\n", &c);
    printf("Value of c: %d\n\n", c); // 2
    return 0;
-}**/
+}
 
 void swap(int *a,int *b){
     int temp;
